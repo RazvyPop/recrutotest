@@ -15,7 +15,7 @@ export default {
       { hid: 'og:description', name: 'og:description', content: 'Take a free, open-source Big Five personality test. Learn to know your personality traits and compare yourself with your partner, colleagues, friends or family' },
       { hid: 'og:type', name: 'og:type', content: 'website' },
       { hid: 'og:url', name: 'og:url', content: 'https://bigfive-test.com' },
-      { hid: 'og:image', name: 'og:image', content: 'https://bigfive-test.com/icon.png' },
+      { hid: 'og:image', name: 'og:image', content: 'https://recrutotest.vercel.app/recruto.png' },
       { hid: 'twitter:card', name: 'twitter:card', content: 'summary' },
       { hid: 'twitter:site', name: 'twitter:site', content: '@maccyber' },
       { hid: 'twitter:title', name: 'twitter:title', content: 'Free open-source BigFive personality traits test' },
