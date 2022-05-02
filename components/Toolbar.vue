@@ -28,6 +28,7 @@
           text
           :to="localePath('result')"
           class="hidden-sm-and-down text-none font-weight-regular"
+          color="1d68a5"
         >
           {{ $t('toolbar.see_results') }}
         </v-btn>
@@ -35,6 +36,7 @@
           text
           :to="localePath('compare')"
           class="hidden-sm-and-down text-none font-weight-regular"
+          color="1d68a5"
         >
           {{ $t('toolbar.compare_with') }}
         </v-btn>
