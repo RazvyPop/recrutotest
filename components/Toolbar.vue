@@ -89,7 +89,7 @@ export default {
     const icons = { mdiMenu }
     return {
       drawer: false,
-      logoSrc: require('@/assets/recruto.svg'),
+      logoSrc: require('@/static/recruto.png'),
       icons
     }
   },
