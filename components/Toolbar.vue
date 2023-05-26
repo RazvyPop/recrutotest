@@ -18,7 +18,7 @@
                 contain
                 :src="logoSrc"
                 transition="fade-transition"
-                width="40"
+                width="120"
               />
             </transition>
           </nuxt-link>
@@ -28,6 +28,7 @@
           text
           :to="localePath('result')"
           class="hidden-sm-and-down text-none font-weight-regular"
+          color="1d68a5"
         >
           {{ $t('toolbar.see_results') }}
         </v-btn>
@@ -35,6 +36,7 @@
           text
           :to="localePath('compare')"
           class="hidden-sm-and-down text-none font-weight-regular"
+          color="1d68a5"
         >
           {{ $t('toolbar.compare_with') }}
         </v-btn>
@@ -89,7 +91,7 @@ export default {
     const icons = { mdiMenu }
     return {
       drawer: false,
-      logoSrc: require('@/assets/logo.svg'),
+      logoSrc: require('@/static/recruto.png'),
       icons
     }
   },
